@@ -1,0 +1,9 @@
+input::selection{
+    background: transparent;
+}
+
+form input[type="text"],
+form textarea {
+    display: block;
+    resize: none;
+}
