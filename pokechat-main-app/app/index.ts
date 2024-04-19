@@ -27,7 +27,10 @@ app.set('views', __dirname + "/views");
  * en een input veld waarin je een nieuwe boodschap kan verzenden.
  */
 app.get("/", (req, res) => { 
-    // TODO: implementeer get request
+    res.render("index", {
+        title: "Hello World",
+        message: "Hello World"
+    })
 });
 
 /**
